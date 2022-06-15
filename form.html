@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ფორმა</title>
+        <link rel="stylesheet" href="formStyles.css">
+    </head>
+    <body>
+
+        <div id="register">
+            <form>
+                <label for="firstName">სახელი</label><br>
+                <input type="text" id="firstName" placeholder="შეიყვანე სახელი">
+                <br>
+                <label for="lastName">გვარი</label><br>
+                <input type="text" id="lastName" placeholder="შეიყვანე გვარი"><br>
+                <label for="education">განათლება 1</label><br>
+                <textarea type="textarea" id="education" rows="5" cols="20" maxlength="350" placeholder="გვითხარი რა განათლება გაქვს"></textarea>
+                <div id="addEducationDiv"></div>
+                <div>
+                    <button type="button" id="addEduBtn" value="დაამატე განათლება">დაამატე განათლება</button>
+                </div>
+                <br><br>
+                    <a href="https://www.youtube.com/watch?v=abY_RKzGbXk"><button type="button" id="submitBtn">წავიდა</button></a>  
+            </form>
+        </div>
+
+
+        <script src="formApp.js"></script>
+    </body>
+</html>

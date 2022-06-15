@@ -1,0 +1,57 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: antiquewhite;
+    background: linear-gradient(to bottom, rgb(89, 89, 233), rgb(190, 174, 145));
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+}
+
+
+#register{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+input,
+button,
+textarea{
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 2px black;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    background-color: rgb(231, 213, 213);
+}
+
+
+textarea:focus{
+    background-color: white;
+    transform: scale(1.02);
+}
+input:focus{
+    background-color: white;
+    transform: scale(1.02);
+}
+
+label{
+    color: rgb(238, 230, 230);
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: white;
+    font-weight: bold;
+    transform: scale(1.02);
+}
+textarea:hover{
+   transform: scale(1.02);
+   background-color: white;
+}
+input:hover{
+    transform: scale(1.02);
+    background-color: white;
+}
+
+
+
